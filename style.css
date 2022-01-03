@@ -1,33 +1,51 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.mtb {
+    margin: 80px 0;
 }
 
 h1 {
     font-size: 50px;
 }
 
-section {
+section.top-banner {
     display: flex;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 
 .half-width img {
-    width: 70%;
+    width: 80%;
 }
 
 .name-color {
-    color: #f6900b;
+    color: #ee4c1b;
+    font-weight: 800;
 }
 
 .link-btn {
-    background-image: linear-gradient(to right, orange, red);
+    background-image: linear-gradient(to right, #fa6b58, #ee341b);
     padding: 12px 40px;
     font-weight: 600;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
