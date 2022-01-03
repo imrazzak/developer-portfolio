@@ -17,7 +17,8 @@ section.top-banner {
 
 .half-width {
     width: 50%;
-    padding-left: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .half-width img {
@@ -36,6 +37,7 @@ section.top-banner {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .top-banner {
@@ -48,4 +50,45 @@ section.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+div.experience {
+    display: flex;
+}
+
+.experience-item {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 14px 50px gray;
+    padding: 30px 40px;
+    border-radius: 12px;
+}
+
+#senior-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(250, 164, 154), tomato);
+    border-image-slice: 1;
+}
+
+#junior-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightblue, rgb(129, 89, 238));
+    border-image-slice: 1;
+}
+
+footer {
+    background: #4c5062;
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+footer p {
+    text-align: center;
 }
